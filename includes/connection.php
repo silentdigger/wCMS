@@ -9,7 +9,7 @@ $pagetitle = "silentCMS";
 try {
 
 
-    $pdo = new PDO('mysql:host=localhost;dbname=wcms', 'root', 'Misiu1987');
+    $pdo = new PDO('mysql:host=localhost;dbname=wcms', 'root', 'nope');
 } catch (PDOException $e) {
     exit('Brak połączenia z bazą');
 }
